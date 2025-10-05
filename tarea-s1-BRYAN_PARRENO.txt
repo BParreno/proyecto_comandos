@@ -1,0 +1,20 @@
+    1  pwd
+    2  mkdir proyecto_comandos
+    3  cd proyecto_comandos
+    4  mkdir documentos
+    5  mkdir imagenes
+    6  mkdir scripts
+    7  cd proyecto_comandos
+    8  cd documentos
+    9  echo "Primera linea de la tarea autónoma." > notas.txt
+   10  echo "Segunda linea para cumplir con el requisito." >> notas.txt
+   11  echo "Tercera linea sobre los comandos básicos." >> notas.txt
+   12  cp notas.txt ../scripts/backup_notas.txt
+   13  mv ../scripts/backup_notas.txt ../imagenes/
+   14  cd ..
+   15  touch documentos/resumen.txt
+   16  cat documentos/notas.txt > documentos/resumen.txt
+   17  echo "Este texto se añade al final de resumen.txt." >> documentos/resumen.txt
+   18  rm imagenes/backup_notas.txt
+   19  rmdir imagenes
+   20  history > tarea-s1-BRYAN_PARRENO.txt

@@ -1,0 +1,4 @@
+Primera linea de la tarea autónoma.
+Segunda linea para cumplir con el requisito.
+Tercera linea sobre los comandos básicos.
+Este texto se añade al final de resumen.txt.
